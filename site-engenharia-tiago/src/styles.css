@@ -251,3 +251,74 @@
     .topbar-inner{ padding:10px 12px; }
   }
   
+
+  /* ======== QUEM SOMOS ======== */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    background-color: #f7fbff;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    gap: 40px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-text .section-subtitle {
+    color: #0090ff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0d2340;
+    margin-bottom: 20px;
+  }
+  
+  .about-text .highlight {
+    color: #007bff;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* 📱 Responsivo */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-image img {
+      max-width: 90%;
+    }
+  
+    .about-text h2 {
+      font-size: 1.6rem;
+    }
+  }
+  
