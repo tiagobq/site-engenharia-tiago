@@ -321,4 +321,142 @@
       font-size: 1.6rem;
     }
   }
+
+  /* === Serviços com ícones === */
+.services-icons { padding: 48px 20px; background: #fff; }
+.icons-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 220px;
+  transition: transform .18s ease, box-shadow .18s ease;
+  border: 1px solid rgba(15,23,42,0.04);
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 36px rgba(2,6,23,0.12);
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  display:block;
+  margin-bottom: 6px;
+}
+
+/* Titulos e texto */
+.service-card h4 {
+  color: #07335a;
+  font-size: 1.15rem;
+  margin: 0;
+}
+.service-card p {
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-top: auto; /* empurra o texto para baixo se quiser alinhamento consistente */
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .icons-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .icons-grid { grid-template-columns: 1fr; }
+  .service-card { min-height: auto; }
+}
+
+/* === SEÇÃO ESPECIALIDADES (6 IMAGENS) === */
+.especialidades-section {
+    padding: 80px 20px;
+    background-color: #f8fafc;
+  }
+  
+  .especialidades-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-subtitle {
+    color: #0070c9;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  
+  .section-title {
+    color: #0f172a;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .especialidades-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    justify-items: center;
+  }
+  
+  .especialidade-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    max-width: 350px;
+  }
+  
+  .especialidade-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  }
+  
+  .especialidade-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .especialidade-card p {
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 18px 15px;
+    line-height: 1.4;
+    background-color: #fff;
+  }
+  
+  /* === Responsivo (Mobile) === */
+  @media (max-width: 1024px) {
+    .especialidades-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .especialidades-grid {
+      grid-template-columns: 1fr;
+    }
+    .especialidade-card {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+  
   

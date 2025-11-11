@@ -158,6 +158,71 @@ export default function App() {
           </div>
         </section>
 
+              {/* Bloco de ícones / serviços */}
+      <section className="services-icons">
+        <div className="icons-grid">
+          <article className="service-card">
+            <img src="/icons/projeto.png" alt="Projetos mecânicos" className="service-icon" />
+            <h4>Projetos mecânicos</h4>
+            <p>Adaptações à NR-12, desenhos CAD e detalhamento para fabricação.</p>
+          </article>
+
+          <article className="service-card">
+            <img src="/icons/certificado.png" alt="Vistorias e laudos" className="service-icon" />
+            <h4>Vistorias e laudos técnicos</h4>
+            <p>Vistorias, avaliações, laudos para vigilância e segurança operacional.</p>
+          </article>
+
+          <article className="service-card">
+            <img src="/icons/atendimento.png" alt="Responsabilidade técnica" className="service-icon" />
+            <h4>Responsabilidade técnica</h4>
+            <p>Acompanhamento técnico, emissão de ART e suporte para licitações.</p>
+          </article>
+        </div>
+      </section>
+
+                  {/* Seção: Nossas Especialidades */}
+        <section className="especialidades-section" id="especialidades">
+          <div className="especialidades-container">
+            <h5 className="section-subtitle">SERVIÇOS</h5>
+            <h2 className="section-title">Veja nossas especialidades</h2>
+
+            <div className="especialidades-grid">
+              <article className="especialidade-card">
+                <img src="/especialidades/ar.jpg" alt="Laudo técnico para ar condicionado" />
+                <p>Laudo técnico para ar condicionado</p>
+              </article>
+
+              <article className="especialidade-card">
+                <img src="/especialidades/pmoc.jpg" alt="Higienização de ar condicionado" />
+                <p>Laudo técnico de higienização e PMOC</p>
+              </article>
+
+              <article className="especialidade-card">
+                <img src="/especialidades/nr13.jpg" alt="Laudo em NR13" />
+                <p>Laudo em NR13</p>
+              </article>
+
+              <article className="especialidade-card">
+                <img src="/especialidades/pesadas.jpg" alt="maquinas pesadas" />
+                <p>Laudo para maquinas pesadas</p>
+              </article>
+
+              <article className="especialidade-card">
+                <img src="/especialidades/monta.jpg" alt="monta" />
+                <p>Laudo para monta</p>
+              </article>
+
+              <article className="especialidade-card">
+                <img src="/especialidades/nr12.PNG" alt="nr12" />
+                <p>Laudo nr12</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+
+
 
       {/* Conteúdo principal (exemplos de seções) */}
       <main className="container-main">
