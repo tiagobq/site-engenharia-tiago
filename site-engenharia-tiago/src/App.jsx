@@ -226,32 +226,53 @@ export default function App() {
 
       {/* Conteúdo principal (exemplos de seções) */}
       <main className="container-main">
-        <section id="servicos" className="card section">
-          <h2>Serviços</h2>
-          <ul>
-            <li>Laudos Técnicos e ART</li>
-            <li>Projetos Mecânicos</li>
-            <li>Adequação à NR-12</li>
-            <li>Assessoria técnica para clínicas odontológicas</li>
-          </ul>
-        </section>
-
-        <section id="clinicas-odontologicas" className="card section">
-          <h2>Clínicas Odontológicas</h2>
-          <p>Laudos para autoclaves, compressores e equipamentos: emissão de ART e laudo técnico.</p>
-        </section>
-
-        <section id="contato" className="card section contact">
-          <h2>Contato</h2>
-          <p>Email: <a href="mailto:engtiagosousa@outlook.com">engtiagosousa@outlook.com</a></p>
-          <p>WhatsApp: <a href="https://wa.me/5548996281131?text=Quero%20saber%20mais%20sobre%20os%20laudos">(48) 99628-1131</a></p>
-        </section>
+       
       </main>
+      {/* ======= RODAPÉ ======= */}
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-logo">
+            <img src="/logo.png" alt="Next Engenharia" />
+            <h3>Next <span>Engenharia</span></h3>
+          </div>
+
+          <div className="footer-info">
+            <h4>ENDEREÇO</h4>
+            <p>📍 Rua Jose Aldo Correa, 315<br />
+            União<br />
+            Cocal do Sul - SC<br />
+            CEP: 88835-000</p>
+          </div>
+
+          <div className="footer-info">
+            <h4>CONTATO</h4>
+            <p>
+            <p>WhatsApp: <a href="https://wa.me/5548996281131?text=Quero%20saber%20mais%20sobre%20os%20laudos">(48) 99628-1131</a></p>
+               Email: engtiagosousa@outlook.com</p>
+          </div>
+
+          <div className="footer-info">
+            <h4>MENU</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#empresa">Empresa</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#contato">Contato</a></li>
+              <li><a href="#categorias">Categorias</a></li>
+              
+            </ul>
+          </div>
+        </div>
+
+      </footer>
+
 
       <footer className="footer">
-        <div>© {new Date().getFullYear()} Tiago Sousa — Engenharia Mecânica • Atendimento nacional</div>
+        <div>© {new Date().getFullYear()} Tiago Sousa — Next Engenharia • Soluções mecânicas</div>
         <p>Atendimento em todo o Brasil</p>
       </footer>
     </div>
   );
 }
+
+
