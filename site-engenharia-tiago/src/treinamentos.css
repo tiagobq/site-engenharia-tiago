@@ -15,7 +15,7 @@
   .trainings-main .intro { color: #334155; margin-bottom: 20px; font-size: 1rem; line-height: 1.7; }
   
   /* cards grid */
-  .cards-grid, .cards-grid .training-card { /* kept if needed */ }
+  
   .cards-grid { display: none; } /* not used but safe fallback */
   
   .cards-grid, .cards-grid {}

@@ -1,9 +1,17 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./styles.css";
 import Treinamentos from "./Treinamentos";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
+  
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/treinamentos" element={<Treinamentos />} />
+      </Routes>
+    </BrowserRouter>
+
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -58,7 +66,7 @@ export default function App() {
             <ul>
               <li><a onClick={onNavLinkClick} href="#inicio" className="nav-link">Início</a></li>
               <li><a onClick={onNavLinkClick} href="#sobre" className="nav-link">Sobre</a></li>
-              <li><a onClick={onNavLinkClick} href="/treinamentos.jsx" className="nav-link">Treinamentos</a></li>
+              <li><a onClick={onNavLinkClick} Link to = "/treinamentos" className="nav-link">Treinamentos</a></li>
 
               {/* Dropdown controlado */}
               <li
