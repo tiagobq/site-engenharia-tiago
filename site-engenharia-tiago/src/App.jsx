@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./styles.css";
+import Treinamentos from "./Treinamentos";
+
 
 export default function App() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -56,7 +58,7 @@ export default function App() {
             <ul>
               <li><a onClick={onNavLinkClick} href="#inicio" className="nav-link">Início</a></li>
               <li><a onClick={onNavLinkClick} href="#sobre" className="nav-link">Sobre</a></li>
-              <li><a onClick={onNavLinkClick} href="#treinamentos" className="nav-link">Treinamentos</a></li>
+              <li><a onClick={onNavLinkClick} href="/treinamentos.jsx" className="nav-link">Treinamentos</a></li>
 
               {/* Dropdown controlado */}
               <li
@@ -272,6 +274,8 @@ export default function App() {
         <p>Atendimento em todo o Brasil</p>
       </footer>
     </div>
+    // ... no JSX
+
   );
 }
 
