@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./home";
 import Treinamentos from "./Treinamentos";
 import "./styles.css";
+import ServicePage from "./pages/ServicePage";
+
 
 export default function App() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -63,13 +65,20 @@ export default function App() {
                     Serviços ▾
                   </button>
 
-                  <ul className="dropdown-menu" role="menu" aria-hidden={!servicesOpen}
-                      style={{ display: servicesOpen ? undefined : "none" }}>
-                    <li><a href="/#servicos" role="menuitem" onClick={closeAll}>Serviços Gerais</a></li>
-                    <li><a href="/#clinicas-odontologicas" role="menuitem" onClick={closeAll}>Clínicas Odontológicas</a></li>
-                    <li><a href="/#projetos" role="menuitem" onClick={closeAll}>Projetos Mecânicos</a></li>
-                  </ul>
-                </li>
+                <ul className="dropdown-menu" role="menu" aria-hidden={!servicesOpen} style={{ display: servicesOpen ? undefined : "none" }}>
+                <li><Link to="/servicos/munck" onClick={closeAll}>Laudos para caminhão Munck</Link></li>
+                <li><Link to="/servicos/ar-condicionado" onClick={closeAll}>Laudos e projetos para Ar Condicionado</Link></li>
+                <li><Link to="/servicos/contra-incendio" onClick={closeAll}>Laudos e Projetos Contra Incêndio</Link></li>
+                <li><Link to="/servicos/elevadores" onClick={closeAll}>Laudos para Elevadores</Link></li>
+                <li><Link to="/servicos/cozinhas-industriais" onClick={closeAll}>Laudos para Cozinhas Industriais</Link></li>
+                <li><Link to="/servicos/estruturas-metalicas" onClick={closeAll}>Laudos e Projetos de Estruturas Metálicas</Link></li>
+                <li><Link to="/servicos/eventos-temporarios" onClick={closeAll}>Laudos para Eventos Temporários</Link></li>
+                <li><Link to="/servicos/desmanches" onClick={closeAll}>Responsabilidade Técnica para Desmanches</Link></li>
+                <li><Link to="/servicos/nr12" onClick={closeAll}>Laudos e Projetos NR 12</Link></li>
+                <li><Link to="/servicos/playground" onClick={closeAll}>Laudos para Playground</Link></li>
+                <li><Link to="/servicos/pericias-judiciais" onClick={closeAll}>Perícias Judiciais</Link></li>
+              </ul>
+              </li>
               </ul>
             </nav>
 
@@ -84,6 +93,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/treinamentos" element={<Treinamentos />} />
+          <Route path="/servicos/:slug" element={<ServicePage />} />
         </Routes>
 
         {/* footer compartilhado — se quiser o footer dentro do Home, remova daqui */}
