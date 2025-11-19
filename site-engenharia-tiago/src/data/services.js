@@ -19,7 +19,7 @@ const services = [
       slug: "ar-condicionado",
       title: "Laudos e projetos para Ar Condicionado",
       short: "Dimensionamento, PMOC e projetos para instalações.",
-      image: "/servicos/ar-condicionado.jpg",
+      image: "/servicos/ar.jpg",
       content: `
   <p>Projetos de dutos, cálculos de carga térmica, PMOC e laudos de higienização.</p>
   `
@@ -28,9 +28,25 @@ const services = [
       slug: "contra-incendio",
       title: "Laudos e Projetos Contra Incêndio",
       short: "Laudos de risco e projetos de medidas passivas e ativas.",
-      image: "/servicos/contra-incendio.jpg",
+      image: "/servicos/extintor.jpg",
       content: "<p>Identificação de risco, projeto de hidrantes, rota de fuga e recomendações conformes a legislação local.</p>"
     },
+
+    {
+        slug: "elevadores",
+        title: "Laudos e Projetos para elevadores",
+        short: "Laudos para elevadores",
+        image: "/servicos/elevador.jpg",
+        content: "<p>Elevador</p>"
+      },
+
+      {
+        slug: "cozinha",
+        title: "Laudos para cozinha industrial",
+        short: "Laudos para cozinha",
+        image: "/servicos/cozinha.jpg",
+        content: "<p>Sistemas de ventilação e exaustão para cozinhas profissionaisEstabelecemos os princípios gerais para projeto, instalação, operação e manutenção de sistemas de ventilação e exaustão para cozinhas profissionais, com ênfase na segurança contra incêndio e no controle ambiental.</p>"
+      },
     // ... adicione os demais serviços com slug, title, image, content
   ];
   
