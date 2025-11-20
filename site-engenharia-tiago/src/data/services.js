@@ -45,7 +45,55 @@ const services = [
         title: "Laudos para cozinha industrial",
         short: "Laudos para cozinha",
         image: "/servicos/cozinha.jpg",
-        content: "<p>Sistemas de ventilação e exaustão para cozinhas profissionaisEstabelecemos os princípios gerais para projeto, instalação, operação e manutenção de sistemas de ventilação e exaustão para cozinhas profissionais, com ênfase na segurança contra incêndio e no controle ambiental.</p>"
+        content: "<p>Sistemas de ventilação e exaustão</p>"
+      },
+
+      {
+        slug: "estrutura",
+        title: "Laudos e Projetos de estrutura metalica",
+        short: "Laudos e Projetos de estrutura metalica",
+        image: "/servicos/estrutura.jpg",
+        content: "<p>Identificação de risco, projeto de hidrantes, rota de fuga e recomendações conformes a legislação local.</p>"
+      },
+
+      {
+        slug: "playground",
+        title: "Laudos para playgrounds",
+        short: "Laudos para playgrounds",
+        image: "/servicos/playground.jpg",
+        content: "<p>playground</p>"
+      },
+      
+      {
+        slug: "desmanche",
+        title: "Responsabilidade técnica para desmanche",
+        short: "Laudos para desmanche",
+        image: "/servicos/desmanche.jpg",
+        content: "<p>desmanche</p>"
+      },
+
+      {
+        slug: "elevadores",
+        title: "Laudos e Projetos para elevadores",
+        short: "Laudos para elevadores",
+        image: "/servicos/elevador.jpg",
+        content: "<p>Elevador</p>"
+      },
+
+      {
+        slug: "nr12",
+        title: "Laudos e Projetos para nr12",
+        short: "Laudos para nr12",
+        image: "/servicos/nr12.PNG",
+        content: "<p>nr12</p>"
+      },
+      
+      {
+        slug: "pericia",
+        title: "Pericia judicial",
+        short: "Pericia judicial",
+        image: "/servicos/pericia.jpg",
+        content: "<p>pericia judicial</p>"
       },
     // ... adicione os demais serviços com slug, title, image, content
   ];
