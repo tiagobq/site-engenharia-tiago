@@ -3,17 +3,18 @@ import "./styles/service.css";
 
 export default function Servicos() {
   const servicos = [
-    { id: 1, title: "Laudos para caminhão Munck", desc: "Inspeção, laudo técnico e ART para operação segura de Munck e guindastes veiculares." },
-    { id: 2, title: "Laudos e projetos para Ar Condicionado", desc: "Dimensionamento, PMOC, vistorias e projetos para instalações residenciais e comerciais." },
-    { id: 3, title: "Laudos e Projetos Contra Incêndio", desc: "Laudos de risco, projetos e adequações para brigada, hidrantes e planos de emergência." },
-    { id: 4, title: "Laudos para Elevadores", desc: "Inspeção técnica, relatórios e ARTs para elevadores, monta-cargas e hoists." },
-    { id: 5, title: "Laudos para Cozinhas Industriais", desc: "Vistorias, projetos de exaustão, prevenção de incêndio e adequação sanitária." },
-    { id: 6, title: "Laudos e Projetos de Estruturas Metálicas", desc: "Cálculo, detalhamento e laudo de integridade estrutural para estruturas metálicas." },
-    { id: 7, title: "Laudos para Eventos Temporários", desc: "Avaliação de estruturas temporárias (palcos, arquibancadas) e emissão de laudos." },
-    { id: 8, title: "Responsabilidade Técnica para Desmanches", desc: "Emissão de ART e acompanhamento técnico para desmanches automotivos." },
-    { id: 9, title: "Laudos e Projetos NR 12", desc: "Adequação de máquinas, análises de risco e documentação para conformidade NR-12." },
-    { id: 10, title: "Laudos para Playground", desc: "Vistorias de segurança, laudos de conformidade e recomendações preventivas." },
-    { id: 11, title: "Perícias Judiciais", desc: "Atuação pericial técnica, elaboração de laudos e pareceres para processos judiciais." }
+    { id: 1, title: "Caminhão Munck", desc: "Inspeção, laudo técnico e ART para operação segura de Munck e guindastes veiculares." },
+    { id: 2, title: "Ar Condicionado", desc: "Dimensionamento, PMOC, vistorias e projetos para instalações residenciais e comerciais." },
+    { id: 3, title: "Projetos Contra Incêndio", desc: "Laudos de risco, projetos e adequações para brigada, hidrantes e planos de emergência." },
+    { id: 4, title: "Elevadores", desc: "Inspeção técnica, relatórios e ARTs para elevadores, monta-cargas e hoists." },
+    { id: 5, title: "Cozinhas Industriais", desc: "Vistorias, projetos de exaustão, prevenção de incêndio e adequação sanitária." },
+    { id: 6, title: "Projetos de Estruturas Metálicas", desc: "Cálculo, detalhamento e laudo de integridade estrutural para estruturas metálicas." },
+    { id: 7, title: "Eventos Temporários", desc: "Avaliação de estruturas temporárias (palcos, arquibancadas) e emissão de laudos." },
+    { id: 8, title: "Desmanches", desc: "Emissão de ART e acompanhamento técnico para desmanches automotivos." },
+    { id: 9, title: "Projetos NR 12", desc: "Adequação de máquinas, análises de risco e documentação para conformidade NR-12." },
+    { id: 10, title: "Playground", desc: "Vistorias de segurança, laudos de conformidade e recomendações preventivas." },
+    { id: 11, title: "Perícias Judiciais", desc: "Atuação pericial técnica, elaboração de laudos e pareceres para processos judiciais." },
+    { id: 11, title: "Posto de combustível", desc: "Atuação pericial técnica, elaboração de laudos e pareceres para processos judiciais." }
   ];
 
   return (

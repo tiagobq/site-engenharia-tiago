@@ -66,17 +66,18 @@ export default function App() {
                   </button>
 
                 <ul className="dropdown-menu" role="menu" aria-hidden={!servicesOpen} style={{ display: servicesOpen ? undefined : "none" }}>
-                <li><Link to="/servicos/munck" onClick={closeAll}>Laudos para caminhão Munck</Link></li>
-                <li><Link to="/servicos/ar" onClick={closeAll}>Laudos e projetos para Ar Condicionado</Link></li>
-                <li><Link to="/servicos/extintor" onClick={closeAll}>Laudos e Projetos Contra Incêndio</Link></li>
-                <li><Link to="/servicos/elevador" onClick={closeAll}>Laudos para Elevadores</Link></li>
-                <li><Link to="/servicos/cozinha" onClick={closeAll}>Laudos para Cozinhas Industriais</Link></li>
-                <li><Link to="/servicos/estrutura" onClick={closeAll}>Laudos e Projetos de Estruturas Metálicas</Link></li>
+                <li><Link to="/servicos/munck" onClick={closeAll}>Caminhão Munck</Link></li>
+                <li><Link to="/servicos/ar" onClick={closeAll}>Ar Condicionado</Link></li>
+                <li><Link to="/servicos/extintor" onClick={closeAll}>Projetos Contra Incêndio</Link></li>
+                <li><Link to="/servicos/elevador" onClick={closeAll}>Elevadores</Link></li>
+                <li><Link to="/servicos/cozinha" onClick={closeAll}>Cozinhas Industriais</Link></li>
+                <li><Link to="/servicos/estrutura" onClick={closeAll}>Projetos de Estruturas Metálicas</Link></li>
                 
-                <li><Link to="/servicos/desmanche" onClick={closeAll}>Responsabilidade Técnica para Desmanches</Link></li>
-                <li><Link to="/servicos/nr12" onClick={closeAll}>Laudos e Projetos NR 12</Link></li>
-                <li><Link to="/servicos/playground" onClick={closeAll}>Laudos para Playground</Link></li>
+                <li><Link to="/servicos/desmanche" onClick={closeAll}>Desmanches</Link></li>
+                <li><Link to="/servicos/nr12" onClick={closeAll}>Projetos NR 12</Link></li>
+                <li><Link to="/servicos/playground" onClick={closeAll}>Playground</Link></li>
                 <li><Link to="/servicos/pericia" onClick={closeAll}>Perícias Judiciais</Link></li>
+                <li><Link to="/servicos/postos" onClick={closeAll}>Postos de combustível</Link></li>
               </ul>
               </li>
               </ul>

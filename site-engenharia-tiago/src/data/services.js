@@ -2,7 +2,7 @@
 const services = [
     {
       slug: "munck",
-      title: "Laudos para caminhão Munck",
+      title: "Caminhão Munck",
       short: "Inspeção e laudo técnico para Munck e guindastes veiculares.",
       image: "/servicos/munck.jpg",
       content: `
