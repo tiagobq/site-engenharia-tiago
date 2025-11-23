@@ -15,7 +15,7 @@ export default function Treinamentos() {
       <main className="wrap trainings-main">
         <p className="intro">
           Oferecemos treinamentos direcionados a técnicos, encarregados de manutenção, gestores de produção e RH. Cada curso pode ser adaptado ao seu
-          contexto (indústria, clínica, manutenção predial) e entregue em formato in-company ou online ao vivo.
+          contexto (indústria, clínica, manutenção industrial) e entregue em formato presencial ou online ao vivo.
         </p>
 
         <section className="cards-grid">
@@ -76,8 +76,8 @@ export default function Treinamentos() {
         </section>
 
         <div className="trainings-cta">
-          <p>Quer planejar um treinamento para sua equipe? <strong>Entre em contato</strong> e montamos uma proposta sob medida.</p>
-          <a className="btn hero-primary" href="https://wa.me/5548996281131?text=Quero%20informações%20sobre%20treinamentos">Solicitar Proposta</a>
+          <p>Quer planejar um treinamento para sua equipe? <strong>Entre em contato</strong> e montamos uma proposta para aprovação!</p>
+          <a className="btn hero-primary" href="https://wa.me/5548996281131?text=Quero%20informacoes%20sobre%20treinamentos">Solicitar Proposta</a>
         </div>
       </main>
     </div>

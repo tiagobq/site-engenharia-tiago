@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css"; // crie este arquivo conforme o CSS abaixo
+import "./home.css"; 
 
 export default function Home() {
   return (
@@ -44,19 +44,19 @@ export default function Home() {
           <article className="service-card">
             <img src="/icons/projeto.png" alt="Projetos mecânicos" className="service-icon" />
             <h4>Projetos mecânicos</h4>
-            <p>Desenhos CAD, detalhamento e lista de materiais prontos para fabricação.</p>
+            <p>Desenhos CAD, detalhamento e lista de materiais prontos para fabricação</p>
           </article>
 
           <article className="service-card">
             <img src="/icons/certificado.png" alt="Vistorias e laudos" className="service-icon" />
             <h4>Vistorias e laudos</h4>
-            <p>Laudos técnicos com ART e checklists para fiscalização.</p>
+            <p>Laudos técnicos com ART e checklists para fiscalização</p>
           </article>
 
           <article className="service-card">
             <img src="/icons/atendimento.png" alt="Responsabilidade técnica" className="service-icon" />
             <h4>Responsabilidade técnica</h4>
-            <p>Emissão de ART e suporte técnico para processos licitatórios e contratos.</p>
+            <p>Emissão de ART e suporte técnico para processos licitatórios e contratos</p>
           </article>
         </div>
       </section>
@@ -68,28 +68,28 @@ export default function Home() {
 
         <div className="especialidades-grid">
           <article className="especialidade-card">
-            <img src="/especialidades/ar.jpg" alt="Laudo ar condicionado" loading="lazy" />
+            <img src="/especialidades/ar.jpg" alt="Laudo técnico para ar condicionado" loading="lazy" />
             <p>Laudo técnico para ar condicionado</p>
           </article>
 
           <article className="especialidade-card">
             <img src="/especialidades/pmoc.jpg" alt="PMOC" loading="lazy" />
-            <p>Laudo de higienização e PMOC</p>
+            <p>Laudo técnico de higienização e PMOC</p>
           </article>
 
           <article className="especialidade-card">
             <img src="/especialidades/nr13.jpg" alt="NR13" loading="lazy" />
-            <p>Laudo NR13 (vasos de pressão)</p>
+            <p>Laudo técnico NR13 (vasos de pressão)</p>
           </article>
 
           <article className="especialidade-card">
             <img src="/especialidades/pesadas.jpg" alt="Máquinas pesadas" loading="lazy" />
-            <p>Laudos para máquinas pesadas</p>
+            <p>Laudos técnico para máquinas pesadas</p>
           </article>
 
           <article className="especialidade-card">
             <img src="/especialidades/monta.jpg" alt="Montagem" loading="lazy" />
-            <p>Laudo para montagem e montagem elétrica/mecânica</p>
+            <p>Laudo de reponsabilidade técnica para desmanches</p>
           </article>
 
           <article className="especialidade-card">

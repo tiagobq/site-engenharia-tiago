@@ -67,7 +67,7 @@ export default function App() {
 
                 <ul className="dropdown-menu" role="menu" aria-hidden={!servicesOpen} style={{ display: servicesOpen ? undefined : "none" }}>
                 <li><Link to="/servicos/munck" onClick={closeAll}>Caminhão Munck</Link></li>
-                <li><Link to="/servicos/ar" onClick={closeAll}>Ar Condicionado</Link></li>
+                <li><Link to="/servicos/ar" onClick={closeAll}>Ar Condicionado e PMOC</Link></li>
                 <li><Link to="/servicos/extintor" onClick={closeAll}>Projetos Contra Incêndio</Link></li>
                 <li><Link to="/servicos/elevador" onClick={closeAll}>Elevadores</Link></li>
                 <li><Link to="/servicos/cozinha" onClick={closeAll}>Cozinhas Industriais</Link></li>
@@ -82,12 +82,14 @@ export default function App() {
               </li>
               </ul>
             </nav>
-
+            
             <div className="cta-area">
-              <a className="btn-contact" href="https://wa.me/5511999999999" target="_blank" rel="noreferrer">CONTATO</a>
+            <a className="btn-contact" href="/#contato">CONTATO</a>
+              
               <button className="mobile-toggle" aria-label="Abrir menu" onClick={() => setMobileOpen(v => !v)}>☰</button>
             </div>
           </div>
+          
         </header>
 
         {/* ---------- Rotas ---------- */}
@@ -97,8 +99,6 @@ export default function App() {
           <Route path="/servicos/:slug" element={<ServicePage />} />
         </Routes>
 
-        {/* footer compartilhado — se quiser o footer dentro do Home, remova daqui */}
-        {/* você pode manter o footer em Home.jsx se preferir */}
       </div>
     </BrowserRouter>
   );

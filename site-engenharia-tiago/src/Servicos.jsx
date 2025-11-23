@@ -34,14 +34,16 @@ export default function Servicos() {
               {/* Se quiser ícones inline, troque por SVGs inline aqui */}
               <img src={`/icons/servicos-${s.id}.svg`} alt="" />
             </div>
-
+          
             <h3 id={`servico-${s.id}`}>{s.title}</h3>
             <p className="servico-desc">{s.desc}</p>
-            <div className="servico-actions">
+            <div id= "contato" className="servico-actions">
               <a className="btn-outline" href={`https://wa.me/5548996281131?text=Orçamento%20para%20${encodeURIComponent(s.title)}`} target="_blank" rel="noreferrer">Orçar</a>
               <a className="btn-ghost" href="#contato" onClick={() => window.location.href = "/#contato"}>Fale Conosco</a>
+              
             </div>
           </article>
+          
         ))}
       </section>
 

@@ -71,7 +71,7 @@
   .footer-logo h3 { font-size:1.2rem; margin:0 0 6px; }
   .footer-info h4 { margin-bottom:8px; }
   .footer-info p, .footer-info ul { color: rgba(255,255,255,0.9); font-size:0.95rem; line-height:1.6; }
-  .footer-bottom { text-align:center; padding:12px 18px; background: rgba(0,0,0,0.06); margin-top:18px; color: rgba(255,255,255,0.9); }
+  .footer-bottom { text-align:center; padding:12px 18px; background: rgba(236, 232, 232, 0.06); margin-top:18px; color: rgba(12, 12, 12, 0.9); }
   
   /* RESPONSIVO */
   @media (max-width: 1024px) {
