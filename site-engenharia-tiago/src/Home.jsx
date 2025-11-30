@@ -125,7 +125,8 @@ export default function Home() {
 
           <div className="footer-info">
             <h4>CONTATO</h4>
-            <p>WhatsApp: <a href="https://wa.me/5548996281131">(48) 99628-1131</a><br/>Email: <a href="mailto:engtiagosousa@outlook.com">engtiagosousa@outlook.com</a></p>
+            <p>WhatsApp: <a href="https://wa.me/5548996281131">(48) 99628-1131</a><br/>
+            Email: <a href="mailto:engtiagosousa@outlook.com">engtiagosousa@outlook.com</a></p>
           </div>
 
           <div className="footer-info">

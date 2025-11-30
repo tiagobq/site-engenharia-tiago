@@ -9,6 +9,23 @@
   }
   
   .wrap { max-width: 1100px; margin: 0 auto; padding: 0 18px; }
+
+  .logo-wrap {
+    display: flex;
+    align-items: center;   /* centraliza verticalmente */
+    gap: 10px;             /* espaço entre a logo e o texto */
+  }
+  
+  .logo-img {
+    height: 50px;          /* ajuste conforme a altura desejada */
+  }
+  
+  .logo-text {
+    font-size: 1.6rem;     /* deixe do tamanho que quiser */
+    font-weight: 700;
+    color: white;
+  }
+  
   
   /* HERO */
   .hero-banner {

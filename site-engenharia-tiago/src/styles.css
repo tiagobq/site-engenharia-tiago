@@ -477,12 +477,12 @@
   }
   
   .footer-logo img {
-    width: 80px;
+    width: 150px;
     margin-bottom: 10px;
   }
   
   .footer-logo h3 {
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     font-weight: 700;
   }
   .footer-logo span {
@@ -505,6 +505,7 @@
   .footer-info ul {
     list-style: none;
     padding: 0;
+    color: #e5e5e5;
   }
   .footer-info ul li {
     margin-bottom: 6px;
@@ -555,3 +556,20 @@
     }
   }
   
+  /* Corrige a cor dos links (WhatsApp, email) para ficar igual ao restante */
+.footer-info a {
+  color: #ffffff;          /* mesma cor do texto do footer */
+  text-decoration: none;
+}
+
+/* Mantém branco mesmo ao passar o mouse */
+.footer-info a:hover {
+  color: #e5e7eb;          /* um branco mais suave */
+}
+
+/* Ajusta alinhamento dos itens dentro da coluna Contato */
+.footer-info p,
+.footer-info a {
+  margin: 2px 0;           /* remove espaçamentos exagerados */
+  display: block;          /* mantemos bloco para alinhar, mas sem margin grande */
+}
