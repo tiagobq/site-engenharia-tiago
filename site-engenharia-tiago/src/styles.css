@@ -573,3 +573,8 @@
   margin: 2px 0;           /* remove espaçamentos exagerados */
   display: block;          /* mantemos bloco para alinhar, mas sem margin grande */
 }
+
+.brand-logo {
+  height: 60px; /* aumente aqui: 60px, 80px, 100px... */
+  width: auto;  /* mantém proporção correta */
+}
