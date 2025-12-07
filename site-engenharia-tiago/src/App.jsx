@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useState, useRef, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./home";
+import Home from "./Home";
 import Treinamentos from "./Treinamentos";
 import "./styles.css";
 import ServicePage from "./pages/ServicePage";
