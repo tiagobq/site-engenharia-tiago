@@ -32,7 +32,28 @@ export default function Home() {
             <h2>Conheça a <span className="highlight">Next Engenharia</span></h2>
 
             <p>
-              A <strong>Next Engenharia</strong> surgiu diante de um cenário regulatório complexo e, muitas vezes, ineficaz, assim a NEXT se posiciona como um parceiro estratégico. Somos especializados em garantir a conformidade de empresas às NBRs, NRs e demais decretos vigentes. Nossa equipe de profissionais experientes atua em sinergia com os principais órgãos fiscalizadores (CREA, CONFEA, DETRAN, entre outros), garantindo a autenticidade necessária para a aprovação de documentações e processos. Inovamos para simplificar a burocracia, permitindo que nossos clientes foquem no crescimento de seus negócios sem os entraves do sistema tradicional.
+            <section>
+ 
+
+  <p>
+    A <strong>Next Engenharia</strong> nasceu para facilitar a vida das empresas diante de tantas normas, exigências e fiscalizações.
+    Somos especialistas em deixar sua empresa <strong>100% regularizada</strong> de acordo com as NBRs, NRs e demais leis vigentes.
+  </p>
+
+  <p>
+    Atuamos de forma integrada com órgãos como <strong>CREA, CONFEA e DETRAN</strong>, garantindo que sua documentação seja aprovada sem dores de cabeça.
+  </p>
+
+  <p>
+    Nosso objetivo é <strong>reduzir burocracia</strong>, evitar multas e agilizar processos, para que você possa focar no que realmente importa:
+    <em>crescer o seu negócio com segurança e tranquilidade.</em>
+  </p>
+
+  <p>
+    <strong>Quer saber como regularizar sua empresa rapidamente?</strong> Entre em contato e agende uma avaliação técnica.
+  </p>
+</section>
+
             </p>
           </div>
         </div>

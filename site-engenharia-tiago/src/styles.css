@@ -556,25 +556,24 @@
     }
   }
   
-  /* Corrige a cor dos links (WhatsApp, email) para ficar igual ao restante */
 .footer-info a {
-  color: #ffffff;          /* mesma cor do texto do footer */
+  color: #ffffff;         
   text-decoration: none;
 }
 
-/* Mantém branco mesmo ao passar o mouse */
+
 .footer-info a:hover {
-  color: #e5e7eb;          /* um branco mais suave */
+  color: #e5e7eb;          
 }
 
-/* Ajusta alinhamento dos itens dentro da coluna Contato */
+
 .footer-info p,
 .footer-info a {
-  margin: 2px 0;           /* remove espaçamentos exagerados */
-  display: block;          /* mantemos bloco para alinhar, mas sem margin grande */
+  margin: 2px 0;           
+  display: block;          
 }
 
 .brand-logo {
-  height: 60px; /* aumente aqui: 60px, 80px, 100px... */
-  width: auto;  /* mantém proporção correta */
+  height: 60px; 
+  width: auto;  
 }
