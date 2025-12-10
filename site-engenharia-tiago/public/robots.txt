@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://seusite.com/sitemap.xml
-
+Sitemap: https://nextengenhariamec.com.br/sitemap.xml
 
