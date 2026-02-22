@@ -4,7 +4,7 @@ const services = [
       slug: "munck",
       title: "Caminhão Munck",
       short: "Inspeção e laudo técnico para Munck e guindastes veiculares.",
-      image: "/servicos/munck.jpg",
+      image: "/servicos/munck.webp",
       content: `
   
       <section>
@@ -61,7 +61,7 @@ const services = [
       slug: "ar",
       title: "Laudos e projetos para Ar Condicionado",
       short: "Dimensionamento, PMOC e projetos para instalações.",
-      image: "/servicos/ar.jpg",
+      image: "/servicos/ar.webp",
       content: `
                   <div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
           <h2 style="color: #0a4d8c;">📋 Laudos e PMOC para Ar-Condicionado</h2>
@@ -98,7 +98,7 @@ const services = [
       slug: "extintor",
       title: "Laudos e Projetos Contra Incêndio",
       short: "Laudos de risco e projetos.",
-      image: "/servicos/extintor.jpg",
+      image: "/servicos/extintor.webp",
       content: ` 
       
       <div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
@@ -136,7 +136,7 @@ const services = [
         slug: "elevador",
         title: "Laudos e Projetos para elevadores",
         short: "Laudos, inspeções, polias de desvio, polias de tração",
-        image: "/servicos/elevador.jpg",
+        image: "/servicos/elevador.webp",
         content: `
           <div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
   <h2 style="color: #1b3a7a;">⬆️ Laudo Técnico, Inspeção e Regularização de Elevadores</h2>
@@ -177,7 +177,7 @@ const services = [
         slug: "cozinha",
         title: "Laudos para cozinha industrial",
         short: "Laudos, projetos, avaliações",
-        image: "/servicos/cozinha.jpg",
+        image: "/servicos/cozinha.webp",
         content: `
         
         <h2>Laudo Técnico para Cozinha Industrial </h2>
@@ -209,7 +209,7 @@ const services = [
         slug: "estrutura",
         title: "Laudos e Projetos de estrutura metálica",
         short: "Laudos, projeto, cálculo estrutural",
-        image: "/servicos/estrutura.jpg",
+        image: "/servicos/estrutura.webp",
         content: `
         
         <h2>Laudos, projetos e estrutura metálica</h2>
@@ -230,7 +230,7 @@ const services = [
         slug: "playground",
         title: "Laudos para playgrounds",
         short: "Laudos, inspeções, visita técnica",
-        image: "/servicos/playground.jpg",
+        image: "/servicos/playground.webp",
         content: `
         
         <h2>Laudos para Playgrounds</h2>
@@ -260,7 +260,7 @@ const services = [
         slug: "desmanche",
         title: "Responsabilidade técnica para desmanche",
         short: "Laudos para desmanche",
-        image: "/servicos/desmanche.jpg",
+        image: "/servicos/desmanche.webp",
         content: `
         
         <h2>Laudo de responsabilidade técnica para desmanche</h2>
@@ -290,7 +290,7 @@ const services = [
         slug: "postos",
         title: "Laudos para postos de combustível",
         short: "Laudos para postos de todo o Brasil",
-        image: "/servicos/postos.jpg",
+        image: "/servicos/postos.webp",
         content: `
         
         <h2>Laudo para postos de combustível</h2>
@@ -302,7 +302,7 @@ const services = [
         slug: "nr12",
         title: "Laudos e Projetos para nr12",
         short: "Projetos para proteção de máquinas de equipamentos",
-        image: "/servicos/nr12.PNG",
+        image: "/servicos/nr12.webp",
         content: `
         
         <h2>Laudo para proteção e adequação de máquinas NR12</h2>
@@ -316,7 +316,7 @@ const services = [
         slug: "pericia",
         title: "Pericia judicial",
         short: "Pericia judicial, processo judicial, atendimento in-loco",
-        image: "/servicos/pericia.jpg",
+        image: "/servicos/pericia.webp",
         content: `
         
         <h2>Participação em perícias judiciais</h2>
