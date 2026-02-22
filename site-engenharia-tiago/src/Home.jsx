@@ -24,7 +24,7 @@ export default function Home() {
       <section id="sobre" className="section about">
         <div className="about-container wrap">
           <div className="about-image">
-            <img src="/quem-somos.jpg" alt="Engenheiro fazendo inspeção técnica" loading="lazy" />
+            <img src="/quem-somos.webp" alt="Engenheiro fazendo inspeção técnica" loading="lazy" />
           </div>
 
           <div className="about-text">
@@ -89,32 +89,32 @@ export default function Home() {
 
         <div className="especialidades-grid">
           <article className="especialidade-card">
-            <img src="/especialidades/ar.jpg" alt="Laudo técnico para ar condicionado" loading="lazy" />
+            <img src="/especialidades/ar.webp" alt="Laudo técnico para ar condicionado" loading="lazy" />
             <p>Laudo técnico para ar condicionado</p>
           </article>
 
           <article className="especialidade-card">
-            <img src="/especialidades/pmoc.jpg" alt="PMOC" loading="lazy" />
+            <img src="/especialidades/pmoc.webp" alt="PMOC" loading="lazy" />
             <p>Laudo técnico de higienização e PMOC</p>
           </article>
 
           <article className="especialidade-card">
-            <img src="/especialidades/nr13.jpg" alt="NR13" loading="lazy" />
+            <img src="/especialidades/nr13.webp" alt="NR13" loading="lazy" />
             <p>Laudo técnico NR13 (vasos de pressão)</p>
           </article>
 
           <article className="especialidade-card">
-            <img src="/especialidades/pesadas.jpg" alt="Máquinas pesadas" loading="lazy" />
+            <img src="/especialidades/pesadas.webp" alt="Máquinas pesadas" loading="lazy" />
             <p>Laudos técnico para máquinas pesadas</p>
           </article>
 
           <article className="especialidade-card">
-            <img src="/especialidades/monta.jpg" alt="Montagem" loading="lazy" />
+            <img src="/especialidades/monta.webp" alt="Montagem" loading="lazy" />
             <p>Laudo de reponsabilidade técnica para desmanches</p>
           </article>
 
           <article className="especialidade-card">
-            <img src="/especialidades/nr12.PNG" alt="NR12" loading="lazy" />
+            <img src="/especialidades/nr12.webp" alt="NR12" loading="lazy" />
             <p>Laudo NR12 e adequação de máquinas</p>
           </article>
         </div>
@@ -141,7 +141,7 @@ export default function Home() {
 
           <div className="footer-info">
             <h4>ENDEREÇO</h4>
-            <p>Rua Jose Aldo Correa, 315<br />Cocal do Sul - SC</p>
+            <p>Avenida Aeroporto, 410<br />Capelinha - MG</p>
           </div>
 
           <div className="footer-info">
