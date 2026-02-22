@@ -54,6 +54,12 @@
   .service-card { background:#fff; border-radius:12px; padding:22px; text-align:center; box-shadow:0 6px 18px rgba(2,6,23,0.06); transition:transform .18s; }
   .service-card:hover { transform: translateY(-6px); }
   .service-icon { width:56px; height:56px; margin-bottom:12px; }
+  .service-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 12px auto;
+  display: block;
+}
   
   /* ESPECIALIDADES 3x2 */
   .especialidades-section { padding: 56px 0; background: white; text-align:center; }
