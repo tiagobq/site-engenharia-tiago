@@ -15,7 +15,7 @@
   
   /* HERO */
   .hero-banner {
-    background-image: url('/banner.jpg');
+    background-image: url('/banner.webp');
     background-size: cover;
     background-position: center;
     min-height: 360px;
