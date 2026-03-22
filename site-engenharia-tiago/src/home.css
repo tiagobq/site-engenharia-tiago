@@ -12,7 +12,11 @@
 
  
   .hero {
-  background-image: url('./assets/banner.webp');
+ 
+    
+    .hero {
+  background-image: url('/banner.webp');
+}
   background-size: cover;
   background-position: center;
 }
