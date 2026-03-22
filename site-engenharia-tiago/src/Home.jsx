@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css"; 
-import banner from "./assets/banner.webp"
+import bannerImg from "./assets/banner.webp"
 
 <img src={banner} alt="Next Engenharia Mecânica" />
 
