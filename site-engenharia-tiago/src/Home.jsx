@@ -144,7 +144,7 @@ export default function Home() {
 
           <div className="footer-info">
             <h4>ENDEREÇO</h4>
-            <p>Avenida Aeroporto, 410<br />Capelinha - MG</p>
+            <p>Avenida Aeroporto 410<br />Capelinha - MG</p>
           </div>
 
           <div className="footer-info">
